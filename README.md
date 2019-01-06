@@ -8,7 +8,7 @@ The sources are split into chapter folders, each of them with the incremental co
 
 ## Compile/run
 
-The code can be compiled the following under each chapter's folder:
+The code can be compiled with the following command under each chapter's folder:
 
 ```
 g++ main.cpp -o ch_<N> > ch_<N>.ppm
