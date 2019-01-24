@@ -11,15 +11,13 @@ The sources are split into chapter folders, each of them with the incremental co
 The code can be compiled with the following command under each chapter's folder:
 
 ```
-g++ main.cpp -o ch_<N> > ch_<N>.ppm
+g++ main.cpp -O2 -o main
 ```
 Then, the executable can be run with:
 
 ```
-./ch_<N>
+./main > img.ppm
 ```
-
-Where `<N>` denotes the chapter number. 
 
 Note that you need `g++`, or another C++ compiler installed in your machine.
 
